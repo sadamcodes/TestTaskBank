@@ -16,10 +16,14 @@
 - PostgreSQL
 
 ## Как запустить
-1. Клонировать репозиторий
-2. Настроить строку подключения в appsettings.json
-3. Выполнить Update-Database
-4. Запустить проект
+1. Установить PostgreSQL (если нет).
+2. Создайте базу данных с именем ZavodWorkers.
+3. В файле appsettings.json поменяйте пароль на свой:
+   "Host=localhost;Port=5432;Database=ShukrFinanceDb;Username=postgres;Password=собственный_пароль"
+4. Откройте консоль диспетчера пакетов и выполните:
+   Update-Database
+5. Нажмите F5 — проект запустится и откроется Swagger.
 
 ## 989-56-24-24
 [sadamdavlatov2026@gmail.com]
+Спасибо за внимание!!!
